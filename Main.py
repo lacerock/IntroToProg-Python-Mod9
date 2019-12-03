@@ -39,7 +39,7 @@ while True:
     # save current data to file
     elif usrCh == "3":
         Fp.save_data_to_file("EmployeeData.txt", empList)
-
+        print("Data was saved")
     else:
         print("Exiting Program")
         break
